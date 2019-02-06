@@ -6,6 +6,8 @@ html, body {
     color: #555555;
   }
 
-p {
-    margin: 19pt
+h1 {
+    margin: 15pt;
+    background-color: #c91657;
+    color: #eeeeee;
 }
