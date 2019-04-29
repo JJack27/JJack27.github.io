@@ -57,6 +57,23 @@ canvas{
   padding-top: 150pt;
 }
 
+/* ---- navbar ---- */
+.navbar-nav li{
+  margin-left:10pt;
+  padding-right:10pt;
+  border-right: 3px solid #FFF;
+}
+
+.navbar-nav li:last-child{
+  border: none;
+}
+
+.nav-link{
+  font-size: 15pt;
+}
+
+#language-selector{
+}
 
 /* ---- stats.js ---- */
 
@@ -80,18 +97,6 @@ canvas{
   font-size: 1.1em;
 }
 
-#stats,
-.count-particles{
-  -webkit-user-select: none;
-  margin-top: 5px;
-  margin-left: 5px;
-}
-
-#stats{
-  border-radius: 3px 3px 0 0;
-  overflow: hidden;
-}
-
 .count-particles{
   border-radius: 0 0 3px 3px;
 }
@@ -108,3 +113,27 @@ canvas{
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
+
+/* ---- buttons ---- */
+#banner-btns{
+  position: absolute;
+  top:330pt;
+  width:100%;
+  padding:0;
+  margin:0;
+}
+.banner-btn-text{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20pt;
+  height: 100%;
+  margin:0;
+  padding: 0;
+  width: 80pt;
+}
+
+.banner-btn{
+  padding-top: 20pt;
+}
+
+/* ---- animations ----*/
