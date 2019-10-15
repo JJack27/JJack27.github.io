@@ -45,7 +45,7 @@ canvas{
   vertical-align:bottom;
 }
 
-#title{
+#name-title{
   font-size:75pt;
   color: white;
   background-color:transparent;
@@ -55,6 +55,15 @@ canvas{
   user-select:none;
   text-align: center;
   padding-top: 150pt;
+}
+
+.section-title{
+  color:#002133;
+  margin-top: 50pt;
+  margin-left: 15%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20pt;
 }
 
 /* ---- navbar ---- */
@@ -76,33 +85,6 @@ canvas{
 #language-selector{
 }
 
-/* ---- stats.js ---- */
-
-.count-particles{
-  background: #000022;
-  position: absolute;
-  top: 48px;
-  left: 0;
-  width: 80px;
-  color: #13E8E9;
-  font-size: .8em;
-  text-align: left;
-  text-indent: 4px;
-  line-height: 14px;
-  padding-bottom: 2px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-}
-
-.js-count-particles{
-  font-size: 1.1em;
-}
-
-.count-particles{
-  border-radius: 0 0 3px 3px;
-}
-
-
 /* ---- particles.js container ---- */
 
 #particles-js{
@@ -123,6 +105,7 @@ canvas{
   padding:0;
   margin:0;
 }
+
 .banner-btn-text{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
